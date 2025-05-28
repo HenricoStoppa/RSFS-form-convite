@@ -1,0 +1,14 @@
+main {
+    background-color: var(--shape-body);
+
+    padding: 80px;
+
+    border-radius: 15px;
+}
+
+.form-title {
+    font: var(--text-heading-md);
+    color: var(--text-heading);
+
+    margin-bottom: 40px;
+}

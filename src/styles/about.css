@@ -1,0 +1,18 @@
+/* ABOUT FIELDSET */
+#event-name {
+    width: 100%;
+}
+
+.event-date,
+.event-place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+#event-start,
+#event-end,
+#event-local,
+#event-details {
+    width: 100%;
+}

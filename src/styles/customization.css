@@ -1,0 +1,55 @@
+/* CUSTOMIZATION FIELDSET */
+.customization {
+    width: 100%;
+}
+
+.customization-color {
+    display: block;
+}
+
+.file-input {
+    display: none;
+}
+
+.cover-select-input {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.photo-select {
+    background-color: var(--shape-button);
+
+    color: var(--text-heading);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    width: 150px;
+
+    padding: 10px;
+
+    cursor: pointer;
+    border-radius: 10px;
+
+    transition: 200ms;
+}
+
+.photo-select:hover {
+    background-color: var(--shape-hover);
+}
+
+.photo-select-img {
+    height: 16px;
+    width: 16px;
+}
+
+.customization-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin-top: 28px;
+}

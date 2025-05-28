@@ -1,0 +1,57 @@
+/* FORM */
+fieldset {
+    border: none;
+}
+
+input,
+textarea {
+    background-color: var(--input-base);
+
+    font: var(--text-body-sm);
+    color: var(--text-body);
+
+    padding: 1rem;
+
+    border: 1px solid var(--input-stroke);
+    border-radius: 7px;
+}
+
+label {
+    font: var(--text-body-sm);
+    color: var(--text-body);
+
+    display: block;
+
+    padding: 10px 0;
+}
+
+/* TITLES */
+.about-title,
+.customization-title,
+.contact-title {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.customization-title,
+.contact-title {
+    margin-top: 48px;
+}
+
+.about-icon,
+.customization-icon,
+.contact-icon {
+    height: 24px;
+    width: 24px;
+
+    margin-right: 15px;
+}
+
+.about-text,
+.customization-text,
+.contact-text {
+    font: var(--text-heading-sm);
+    color: var(--text-heading);
+}

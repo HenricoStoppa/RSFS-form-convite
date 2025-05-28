@@ -1,0 +1,13 @@
+/* TERMS FIELDSET */
+.term {
+    font: var(--text-body-md);
+    color: var(--text-body);
+
+    display: flex;
+    gap: 5px;
+}
+
+.term a {
+    font-weight: bold;
+    color: var(--brand-light);
+}

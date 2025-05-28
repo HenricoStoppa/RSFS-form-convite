@@ -1,0 +1,53 @@
+/* Toggle */
+.toggle-wrapper {
+    background-color: var(--input-base);
+
+    display: flex;
+    gap: 4px;
+
+    padding: 4px;
+
+    height: 53px;
+    width: 100%;
+
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+}
+
+.toggle-wrapper input[type="radio"] {
+    display: none;
+}
+
+.toggle-wrapper label {
+    background-color: transparent;
+
+    font: var(--text-body-sm);
+    color: var(--text-body);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex: 1;
+
+    padding: 8px 0;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.toggle-wrapper input[type="radio"]:checked + label {
+    background-color: var(--shape-button);
+    color: var(--text-heading);
+}
+
+.toggle-wrapper label:hover {
+    background-color: var(--shape-hover);
+}
+
+.toggle-wrapper img {
+    height: 16px;
+    width: 16px;
+}

@@ -1,0 +1,15 @@
+/* CONTACT FIELDSET */
+#host-name {
+    width: 100%;
+}
+
+.contact-info-social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+#host-email,
+#host-phone {
+    width: 100%;
+}

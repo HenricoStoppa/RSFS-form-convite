@@ -1,0 +1,22 @@
+aside {
+    background-image: url("../images/Background.png");
+    background-size: cover;
+
+    padding: 32px;
+
+    border-radius: 15px;
+}
+
+.logo-img {
+    margin-bottom: 1rem;
+}
+
+.logo-title {
+    font: var(--text-logo);
+    color: var(--accent-pink);
+}
+
+.logo-subtitle {
+    font: var(--text-body-md);
+    color: var(--text-body);
+}

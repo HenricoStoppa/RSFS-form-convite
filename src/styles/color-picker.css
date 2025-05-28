@@ -1,0 +1,82 @@
+.color-picker {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-option {
+    position: relative;
+}
+
+.color-option input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    height: 50px;
+    width: 50px;
+
+    border: 6px solid var(--input-stroke);
+    border-radius: 50%;
+
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.color-option input[type="radio"]:checked {
+    box-shadow: 0 0 0 4px var(--brand-light), 0 0 0 6px var(--input-stroke);
+}
+
+.color-option input[value="light-blue"] {
+    background-color: var(--brand-light);
+    color: var(--brand-light);
+}
+
+.color-option input[value="navy"] {
+    background-color: var(--accent-navy);
+    color: var(--accent-navy);
+}
+
+.color-option input[value="purple"] {
+    background-color: var(--accent-purple);
+    color: var(--accent-purple);
+}
+
+.color-option input[value="fuschia"] {
+    background-color: var(--accent-fuschia);
+    color: var(--accent-fuschia);
+}
+
+.color-option input[value="pink"] {
+    background-color: var(--accent-pink);
+    color: var(--accent-pink);
+}
+
+.color-option input[value="red"] {
+    background-color: var(--fdbk-danger);
+    color: var(--fdbk-danger);
+}
+
+.color-option input[value="orange"] {
+    background-color: var(--accent-orange);
+    color: var(--accent-orange);
+}
+
+.color-option input[value="yellow"] {
+    background-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+}
+
+.color-option input[value="lime"] {
+    background-color: var(--accent-lime);
+    color: var(--accent-lime);
+}
+
+.color-option input[value="green"] {
+    background-color: var(--accent-green);
+    color: var(--accent-green);
+}
+
+.color-option input[value="cyan"] {
+    background-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+}
