@@ -56,7 +56,15 @@
                                     name="event-name"
                                     id="event-name"
                                     placeholder="Nome do evento"
+                                    required
                                 />
+                                <div class="alert-message">
+                                    <img
+                                        src="./src/assets/circle-alert.svg"
+                                        alt="Alerta campo requerido"
+                                    />
+                                    <p>Campo obrigatório</p>
+                                </div>
                             </div>
 
                             <div class="event-date">
@@ -66,8 +74,15 @@
                                         type="datetime-local"
                                         name="event-start"
                                         id="event-start"
-                                        placeholder="DD/MM/AAAA, --:--"
+                                        required
                                     />
+                                    <div class="alert-message">
+                                        <img
+                                            src="./src/assets/circle-alert.svg"
+                                            alt="Alerta campo requerido"
+                                        />
+                                        <p>Campo obrigatório</p>
+                                    </div>
                                 </div>
 
                                 <div class="event-date-end">
@@ -76,7 +91,15 @@
                                         type="datetime-local"
                                         name="event-end"
                                         id="event-end"
+                                        required
                                     />
+                                    <div class="alert-message">
+                                        <img
+                                            src="./src/assets/circle-alert.svg"
+                                            alt="Alerta campo requerido"
+                                        />
+                                        <p>Campo obrigatório</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -122,7 +145,15 @@
                                         name="event-local"
                                         id="event-local"
                                         placeholder="Link ou endereço"
+                                        required
                                     />
+                                    <div class="alert-message">
+                                        <img
+                                            src="./src/assets/circle-alert.svg"
+                                            alt="Alerta campo requerido"
+                                        />
+                                        <p>Campo obrigatório</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -422,10 +453,16 @@
                                 <div class="style-toggle">
                                     <label for="">Estilo</label>
 
-                                    <label class="style-switch">
-                                        <input type="checkbox" />
-                                        <span class="style-slider round"></span>
-                                    </label>
+                                    <div class="switch-wrapper">
+                                        <label class="switch">
+                                            <input
+                                                type="checkbox"
+                                                id="style-switch"
+                                            />
+                                            <span class="slider"></span>
+                                        </label>
+                                        <span class="mode-text">Escuro</span>
+                                    </div>
                                 </div>
 
                                 <div class="cover-select">
@@ -476,7 +513,15 @@
                                         name="host-name"
                                         id="host-name"
                                         placeholder="Nome Completo"
+                                        required
                                     />
+                                    <div class="alert-message">
+                                        <img
+                                            src="./src/assets/circle-alert.svg"
+                                            alt="Alerta campo requerido"
+                                        />
+                                        <p>Campo obrigatório</p>
+                                    </div>
                                 </div>
 
                                 <div class="contact-info-social">
@@ -487,7 +532,15 @@
                                             name="host-email"
                                             id="host-email"
                                             placeholder="exemplo@email.com"
+                                            required
                                         />
+                                        <div class="alert-message">
+                                            <img
+                                                src="./src/assets/circle-alert.svg"
+                                                alt="Alerta campo requerido"
+                                            />
+                                            <p>Campo obrigatório</p>
+                                        </div>
                                     </div>
 
                                     <div class="contact-phone">
@@ -499,7 +552,15 @@
                                             name="host-phone"
                                             id="host-phone"
                                             placeholder="(99)99999-9999"
+                                            required
                                         />
+                                        <div class="alert-message">
+                                            <img
+                                                src="./src/assets/circle-alert.svg"
+                                                alt="Alerta campo requerido"
+                                            />
+                                            <p>Campo obrigatório</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -513,6 +574,7 @@
                                     type="checkbox"
                                     name="terms-politics"
                                     id="terms-politics"
+                                    required
                                 />
                                 <label for="terms-politics">
                                     Li e concordo com os
