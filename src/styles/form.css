@@ -55,3 +55,30 @@ label {
     font: var(--text-heading-sm);
     color: var(--text-heading);
 }
+
+/* REQUIRED INPUTS */
+input:invalid {
+    border-color: #e74c3c; /* vermelho */
+}
+
+.alert-message {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-top: 10px;
+}
+
+.alert-message img {
+    height: 20px;
+    width: 20px;
+}
+
+.alert-message p {
+    font: var(--text-body-sm);
+    color: var(--fdbk-danger);
+}
+
+input:valid + .alert-message {
+    display: none;
+}
